@@ -4,9 +4,14 @@
   "description": "",
   "main": "home.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://your-username.github.io",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }

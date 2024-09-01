@@ -1,0 +1,17 @@
+{
+  "name": "elainelll.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "home.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://your-username.github.io",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

@@ -2,16 +2,21 @@
   "name": "elainelll.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "home.js",
+  "main": "app.py",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "react-scripts start",
+    "build": "npm run build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://your-username.github.io",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "react-scripts": "5.0.0"
   }
 }

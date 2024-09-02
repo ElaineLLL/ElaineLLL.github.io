@@ -21,10 +21,5 @@ def serve_static_files(path):
 def get_message():
     return jsonify(message="Hello from the backend!")
 
-# Handle 404 errors by serving the index.html file (for React Router)
-#@app.errorhandler(404)
-#def page_not_found(e):
-#    return send_from_directory(app.static_folder, 'index.html')
-
 if __name__ == '__main__':
     app.run(port=3000, debug=True)

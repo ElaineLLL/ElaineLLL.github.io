@@ -1,1 +1,3 @@
-# ElaineLLL.github.io
+# Elaine's Personal Website
+- Used for personal resume
+- Just begin building ...

@@ -17,9 +17,13 @@ def serve_static_files(path):
         return send_from_directory(app.static_folder, 'index.html')
 
 # API endpoint
-@app.route('/api/message')
+@app.route('/api/empty')
 def get_message():
-    return jsonify(message="Hello from the backend!")
+    return jsonify(message="This color does not represent me...")
+
+@app.route('/api/blue')
+def pink_message():
+    return jsonify(message="You chose blue!")
 
 if __name__ == '__main__':
     app.run(port=3000, debug=True)

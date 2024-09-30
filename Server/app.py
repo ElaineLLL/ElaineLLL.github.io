@@ -25,5 +25,9 @@ def get_message():
 def pink_message():
     return jsonify(message="You chose blue!")
 
+@app.route('/api/message')
+def message():
+    return jsonify(message="Click!")
+
 if __name__ == '__main__':
     app.run(port=3000, debug=True)

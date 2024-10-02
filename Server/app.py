@@ -21,6 +21,7 @@ def serve_static_files(path):
 def get_message():
     return jsonify(message="This color does not represent me...")
 
+#  test
 @app.route('/api/blue')
 def pink_message():
     return jsonify(message="You chose blue!")

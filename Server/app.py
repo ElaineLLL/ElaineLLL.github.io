@@ -2,9 +2,9 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-@app.route('/api/blue', methods=['GET'])
-def blue():
-    return jsonify({"message": "Hello, the color is blue!"})
+# @app.route('/favicon.ico')
+# def favicon():
+#     return send_from_directory(app.static_folder, 'favicon.ico')
 
 @app.route('/api/empty', methods=['GET'])
 def empty():
